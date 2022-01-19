@@ -1,0 +1,11 @@
+server:
+  port: 80
+
+# 由Spring加载数据到对象中
+datasource:
+  url: jdbc:mysql://localhost/test
+  driver: com.mysql.cj.jdbc.Driver
+  username: root
+  password: rootpassword
+
+
