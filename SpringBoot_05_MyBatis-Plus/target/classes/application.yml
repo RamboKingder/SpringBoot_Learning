@@ -1,0 +1,9 @@
+# 设置数据库连接相关的配置
+Spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: rootpassword
+
+# 设置MP相关的配置
