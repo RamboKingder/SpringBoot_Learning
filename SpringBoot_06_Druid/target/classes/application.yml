@@ -1,0 +1,18 @@
+## 设置数据库连接相关的配置
+#Spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/test
+#    username: root
+#    password: rootpassword
+#    type: com.alibaba.druid.pool.DruidDataSource
+
+# Druid整合专用的配置
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/test
+      username: root
+      password: rootpassword
+
